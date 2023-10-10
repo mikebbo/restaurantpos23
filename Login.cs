@@ -17,9 +17,17 @@ namespace RestaurantPOS
             InitializeComponent();
         }
 
-        private void BtnUserName_Click(object sender, EventArgs e)
+        private void BtnOk_Click(object sender, EventArgs e)
         {
+            if (TxtUserName.Text == null || TxtPassword.Text == null)
+            {
+                MessageBox.Show("Please fill the form");
+                TxtUserName.Text = "";
+                TxtPassword.Text = "";
 
+
+
+            }
         }
 
         private void BtnCancel_Click(object sender, EventArgs e)
@@ -29,7 +37,7 @@ namespace RestaurantPOS
 
         private void BtnHelp_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

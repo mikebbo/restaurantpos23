@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnUserName = new System.Windows.Forms.Button();
+            this.BtnOk = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.BtnHelp = new System.Windows.Forms.Button();
             this.TxtUserName = new System.Windows.Forms.TextBox();
@@ -38,34 +38,40 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // BtnUserName
+            // BtnOk
             // 
-            this.BtnUserName.Location = new System.Drawing.Point(146, 211);
-            this.BtnUserName.Name = "BtnUserName";
-            this.BtnUserName.Size = new System.Drawing.Size(151, 53);
-            this.BtnUserName.TabIndex = 0;
-            this.BtnUserName.Text = "Ok";
-            this.BtnUserName.UseVisualStyleBackColor = true;
-            this.BtnUserName.Click += new System.EventHandler(this.BtnUserName_Click);
+            this.BtnOk.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnOk.ForeColor = System.Drawing.Color.White;
+            this.BtnOk.Location = new System.Drawing.Point(146, 211);
+            this.BtnOk.Name = "BtnOk";
+            this.BtnOk.Size = new System.Drawing.Size(151, 53);
+            this.BtnOk.TabIndex = 0;
+            this.BtnOk.Text = "Ok";
+            this.BtnOk.UseVisualStyleBackColor = false;
+            this.BtnOk.Click += new System.EventHandler(this.BtnOk_Click);
             // 
             // BtnCancel
             // 
+            this.BtnCancel.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnCancel.ForeColor = System.Drawing.Color.White;
             this.BtnCancel.Location = new System.Drawing.Point(303, 211);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(151, 53);
             this.BtnCancel.TabIndex = 0;
             this.BtnCancel.Text = "Cancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.UseVisualStyleBackColor = false;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // BtnHelp
             // 
+            this.BtnHelp.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnHelp.ForeColor = System.Drawing.Color.White;
             this.BtnHelp.Location = new System.Drawing.Point(460, 211);
             this.BtnHelp.Name = "BtnHelp";
             this.BtnHelp.Size = new System.Drawing.Size(151, 53);
             this.BtnHelp.TabIndex = 0;
             this.BtnHelp.Text = "Help";
-            this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.UseVisualStyleBackColor = false;
             this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // TxtUserName
@@ -126,7 +132,7 @@
             this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.BtnHelp);
             this.Controls.Add(this.BtnCancel);
-            this.Controls.Add(this.BtnUserName);
+            this.Controls.Add(this.BtnOk);
             this.Name = "Login";
             this.Text = "LOGIN FORM";
             this.ResumeLayout(false);
@@ -136,7 +142,7 @@
 
         #endregion
 
-        private Button BtnUserName;
+        private Button BtnOk;
         private Button BtnCancel;
         private Button BtnHelp;
         private TextBox TxtUserName;
