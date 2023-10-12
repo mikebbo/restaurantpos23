@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnOk = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.BtnHelp = new System.Windows.Forms.Button();
             this.TxtUserName = new System.Windows.Forms.TextBox();
@@ -36,19 +35,8 @@
             this.lblUserName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.BtnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // BtnOk
-            // 
-            this.BtnOk.BackColor = System.Drawing.SystemColors.Highlight;
-            this.BtnOk.ForeColor = System.Drawing.Color.White;
-            this.BtnOk.Location = new System.Drawing.Point(146, 211);
-            this.BtnOk.Name = "BtnOk";
-            this.BtnOk.Size = new System.Drawing.Size(151, 53);
-            this.BtnOk.TabIndex = 0;
-            this.BtnOk.Text = "Ok";
-            this.BtnOk.UseVisualStyleBackColor = false;
-            this.BtnOk.Click += new System.EventHandler(this.BtnOk_Click);
             // 
             // BtnCancel
             // 
@@ -119,6 +107,18 @@
             this.lblTitle.TabIndex = 3;
             this.lblTitle.Text = "Enter Usename to Log in the system";
             // 
+            // BtnLogin
+            // 
+            this.BtnLogin.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnLogin.ForeColor = System.Drawing.Color.White;
+            this.BtnLogin.Location = new System.Drawing.Point(146, 211);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(151, 53);
+            this.BtnLogin.TabIndex = 0;
+            this.BtnLogin.Text = "Ok";
+            this.BtnLogin.UseVisualStyleBackColor = false;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnOk_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -132,7 +132,7 @@
             this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.BtnHelp);
             this.Controls.Add(this.BtnCancel);
-            this.Controls.Add(this.BtnOk);
+            this.Controls.Add(this.BtnLogin);
             this.Name = "Login";
             this.Text = "LOGIN FORM";
             this.ResumeLayout(false);
@@ -141,8 +141,6 @@
         }
 
         #endregion
-
-        private Button BtnOk;
         private Button BtnCancel;
         private Button BtnHelp;
         private TextBox TxtUserName;
@@ -150,7 +148,6 @@
         private Label lblUserName;
         private Label label1;
         private Label lblTitle;
-
-
+        private Button BtnLogin;
     }
 }
