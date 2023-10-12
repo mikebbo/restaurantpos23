@@ -9,4 +9,8 @@
     <UseWPF>True</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="PosRepo\" />
+  </ItemGroup>
+
 </Project>

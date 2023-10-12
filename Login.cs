@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantPOS.PosUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,12 +28,16 @@ namespace RestaurantPOS
 
 
 
+
             }
         }
 
         private void BtnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
+        { 
+            
+            PosMain posMain = new PosMain();
+            posMain.Show();
+            //this.Close();
         }
 
         private void BtnHelp_Click(object sender, EventArgs e)
