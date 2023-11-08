@@ -1,4 +1,5 @@
-﻿using RestaurantPOS.PosUI;
+﻿using RestaurantPOS.Controller;
+using RestaurantPOS.PosUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,7 @@ namespace RestaurantPOS
 {
     public partial class Login : Form
     {
+        private readonly UserController user;
         public Login()
         {
             InitializeComponent();
@@ -20,13 +22,14 @@ namespace RestaurantPOS
 
         private void BtnOk_Click(object sender, EventArgs e)
         {
-            if (TxtUserName.Text == null || TxtPassword.Text == null)
+            if (TxtUserName.Text == "" || TxtPassword.Text == "")
             {
                 MessageBox.Show("Please fill the form");
                 TxtUserName.Text = "";
                 TxtPassword.Text = "";
+                user.validateUser(TxtUserName.Text, TxtPassword.Text);
 
-
+                
 
 
             }
