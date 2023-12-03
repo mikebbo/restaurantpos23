@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace RestaurantPOS.Model
 {
-    internal class User
+    public class User
     {
-        public string UserName { get; set; }
-        public string PassWord { get; set; }
-        public Role UserRole { get; set; }
-
-    }
-    public enum Role
-    {
-        admin,
-        user,
-        manager
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+        //}
+        //public enum Role
+        //{
+        //    admin,
+        //    user,
+        //    manager
 
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using System.Text.RegularExpressions;
+using System.Configuration;
 
 namespace RestaurantPOS.PosRepo
 {
@@ -17,10 +18,14 @@ namespace RestaurantPOS.PosRepo
 
 
         private User user;
+
+        
+        /*
         public bool isValidUser(User user)
         {
+            var connectionString = ConfigurationManager.ConnectionStrings["RestaurantPos"].ConnectionString;
             //Create a connection to the database
-            using (SqlConnection connection = new SqlConnection(Properties.settings.default.connectioString))
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 //Define a T-SQL query string that has parameter for username and password
                 const string sql = "select COUNT(*)  from User where username=@username and  password=@password";
@@ -28,11 +33,11 @@ namespace RestaurantPOS.PosRepo
                 using (SqlCommand sqlCommand = new SqlCommand(sql, connection))
                 {
                     //Define the @username parameter and it's value
-                    sqlCommand.Parameters.Add(new SqlParameter("@username", SqlDbType.String));
+                    sqlCommand.Parameters.Add(new SqlParameter("@username", SqlDbType.NVarChar));
                     sqlCommand.Parameters["@username"].Value = user.UserName;
 
                     //Define the @password parameter and it's value
-                    sqlCommand.Parameters.Add(new SqlParameter("@password", SqlDbType.String));
+                    sqlCommand.Parameters.Add(new SqlParameter("@password", SqlDbType.NVarChar));
                     sqlCommand.Parameters["@password"].Value = user.PassWord;
 
                     try
@@ -65,11 +70,14 @@ namespace RestaurantPOS.PosRepo
 
             }
             return true;
+            
         }
+       */
         public bool isValidUser(string useraname, string password)
         {
             throw new NotImplementedException();
         }
+
     }
-    }
+    
 }

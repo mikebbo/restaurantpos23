@@ -8,6 +8,6 @@ namespace RestaurantPOS.PosRepo
 {
     internal interface IUserRepo
     {
-        public bool isValidUser(string useraname, string password);
+     //   public bool isValidUser(string useraname, string password);
     }
 }

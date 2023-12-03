@@ -33,3 +33,12 @@ C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\Restaura
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.genruntimeconfig.cache
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\ref\RestaurantPOS.dll
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.PosUI.PosMain.resources
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.sourcelink.json
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\RestaurantPOS.dll.config
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.CopyComplete
