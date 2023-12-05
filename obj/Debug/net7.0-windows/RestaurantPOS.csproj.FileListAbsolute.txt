@@ -42,3 +42,24 @@ C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\WebrootASP.net2022-2023QC\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.CopyComplete
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\RestaurantPOS.exe
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\RestaurantPOS.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.AssemblyReference.cache
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.Login.resources
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.PosUI.PosMain.resources
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.GenerateResource.cache
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.AssemblyInfoInputs.cache
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.AssemblyInfo.cs
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.CoreCompileInputs.cache
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.sourcelink.json
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.csproj.CopyComplete
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\refint\RestaurantPOS.dll
+C:\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\RestaurantPos2023\obj\Debug\net7.0-windows\RestaurantPOS.pdb

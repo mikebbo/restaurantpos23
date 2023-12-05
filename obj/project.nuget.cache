@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3tTqoADe5POuinLqaAaHYJ2SMkIWw39hCaMwONSCaOqaTpPoffJvPyGZeIf3MSNkwzx0/q3H5S8DFTaTTSkOw==",
+  "dgSpecHash": "+uR8HVUtEwddp5k/HzNOAv1h/awxPjN2NlBwQXAAa64pMGYxCJ/G48ywHSYLH9ltRstfZqbC2znD6bXHNvOwdQ==",
   "success": true,
-  "projectFilePath": "C:\\WebrootASP.net2022-2023QC\\RestaurantPos2023\\RestaurantPOS.csproj",
+  "projectFilePath": "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\RestaurantPOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ir\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Ir\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -12,11 +12,7 @@
     "C:\\Users\\Ir\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Ir\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\Ir\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Ir\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\Ir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\Ir\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\Ir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\Ir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+    "C:\\Users\\Ir\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

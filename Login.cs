@@ -50,6 +50,7 @@ namespace RestaurantPOS
                 Username = username,
                 Password = password
             };
+            MessageBox.Show("Username is:"+user.Username+": password is:"+user.Password);
             if (_userRepo.validateUser(user))
             {
                 MessageBox.Show("Login successful");

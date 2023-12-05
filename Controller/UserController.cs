@@ -19,19 +19,20 @@ namespace RestaurantPOS.Controller
             {
                 int count;
                 //create connection
-                var querryString = "select username,passwword where usernname = @Username AND password=@Password ";
+                var querryString = "select COUNT(*) from User where username = @Username AND password=@Password ";
                 using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["quickRestoPos"].ConnectionString))
                 {
+                  
                     connection.Open();
                     //Create SqlCommand with the connection and query
-                    var sqlCommand = new SqlCommand(querryString, connection);
-
+                    var sqlCommand = new SqlCommand(querryString,connection);
+                    MessageBox.Show("First step success");
                     // Add parameters
                     sqlCommand.Parameters.AddWithValue("@Username", user.Username);
-                    sqlCommand.Parameters.AddWithValue("@Password", user.Username);
+                    sqlCommand.Parameters.AddWithValue("@Password", user.Password);
                     
                     count = (int)sqlCommand.ExecuteScalar();
-                            
+                    MessageBox.Show("The number of records is:" + count);
                    return count > 0;
                 }
 
@@ -40,8 +41,8 @@ namespace RestaurantPOS.Controller
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.Message);
-
+                //  MessageBox.Show(ex.Message.ToString());
+                ex.GetBaseException();
 
                 return false;
 
