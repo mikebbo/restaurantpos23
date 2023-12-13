@@ -22,9 +22,9 @@ namespace RestaurantPOS
         public Login()
         {
             InitializeComponent();
-             _userRepo =  new UserController();
-            
-            
+            _userRepo = new UserController();
+
+
         }
 
         private void BtnOk_Click(object sender, EventArgs e)
@@ -41,19 +41,21 @@ namespace RestaurantPOS
 
 
             }
-            username =TxtUserName.Text;
-            password =TxtPassword.Text;
-          //  _user.Username = username;
+            username = TxtUserName.Text;
+            password = TxtPassword.Text;
+            //  _user.Username = username;
             //_user.Password = password;
             User user = new User
             {
                 Username = username,
                 Password = password
             };
-            MessageBox.Show("Username is:"+user.Username+": password is:"+user.Password);
             if (_userRepo.validateUser(user))
             {
-                MessageBox.Show("Login successful");
+                PosMain posMain = new PosMain();
+                posMain.Show();
+
+
             }
             else
             {
@@ -61,19 +63,18 @@ namespace RestaurantPOS
             }
         }
 
-    
+
 
         private void BtnCancel_Click(object sender, EventArgs e)
-        { 
-            
-            PosMain posMain = new PosMain();
-            posMain.Show();
+        {
+
+
             //this.Close();
         }
 
         private void BtnHelp_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

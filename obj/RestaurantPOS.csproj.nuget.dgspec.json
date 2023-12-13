@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\RestaurantPOS.csproj": {}
+    "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\RestaurantPOS.csproj": {}
   },
   "projects": {
-    "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\RestaurantPOS.csproj": {
+    "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\RestaurantPOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\RestaurantPOS.csproj",
+        "projectUniqueName": "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\RestaurantPOS.csproj",
         "projectName": "RestaurantPOS",
-        "projectPath": "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\RestaurantPOS.csproj",
+        "projectPath": "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\RestaurantPOS.csproj",
         "packagesPath": "C:\\Users\\Ir\\.nuget\\packages\\",
-        "outputPath": "C:\\MARTCART POS 2016-2018-2020-2021-2022-2023-2024Csharp\\RestaurantPos2023\\obj\\",
+        "outputPath": "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
