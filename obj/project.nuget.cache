@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zupJZ//NpQqtzLPDMupMT1DQ197F5G2Gi/k3me+69PW0Hf1jJj6upYtLwrRl6wvNS17u94FKcQPTgY4UqEykg==",
+  "dgSpecHash": "9xzt9dxo2fIqsXlhrXak8njY41VhHJA+RqnQO8N0MS5P4+sG58ftaiNaJiVi4ovZa/IRDhYs4sYwEzhjHVFO4g==",
   "success": true,
-  "projectFilePath": "C:\\WebrootASP.net2022-2024QC\\restaurantpos2023\\RestaurantPOS.csproj",
+  "projectFilePath": "C:\\WebrootASP.net2022-2024QC\\RestaurantPos2023\\RestaurantPOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ir\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Ir\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

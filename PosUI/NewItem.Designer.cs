@@ -1,6 +1,6 @@
 ﻿namespace RestaurantPOS.PosUI
 {
-    partial class PosMain
+    partial class NewItem
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,6 @@
             BtnCancel = new Button();
             BtnSave = new Button();
             btnPrint = new Button();
-            btnAdmin = new Button();
             SuspendLayout();
             // 
             // BtnCancel
@@ -44,7 +43,7 @@
             BtnCancel.TabIndex = 1;
             BtnCancel.Text = "Cancel";
             BtnCancel.UseVisualStyleBackColor = false;
-            BtnCancel.Click += this.BtnCancel_Click;
+            BtnCancel.Click += BtnCancel_Click;
             // 
             // BtnSave
             // 
@@ -68,29 +67,17 @@
             btnPrint.Text = "Print";
             btnPrint.UseVisualStyleBackColor = false;
             // 
-            // btnAdmin
-            // 
-            btnAdmin.BackColor = SystemColors.Highlight;
-            btnAdmin.ForeColor = Color.White;
-            btnAdmin.Location = new Point(507, 621);
-            btnAdmin.Name = "btnAdmin";
-            btnAdmin.Size = new Size(151, 53);
-            btnAdmin.TabIndex = 2;
-            btnAdmin.Text = "Admin";
-            btnAdmin.UseVisualStyleBackColor = false;
-            // 
-            // PosMain
+            // NewItem
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 708);
             Controls.Add(BtnCancel);
-            Controls.Add(btnAdmin);
             Controls.Add(btnPrint);
             Controls.Add(BtnSave);
-            Name = "PosMain";
-            Text = "PosMain";
+            Name = "NewItem";
+            Text = "New Item";
             ResumeLayout(false);
         }
 
@@ -99,6 +86,5 @@
         private Button BtnCancel;
         private Button BtnSave;
         private Button btnPrint;
-        private Button btnAdmin;
     }
 }

@@ -61,6 +61,8 @@ BenchmarkDotNet.Artifacts/
 # .NET
 project.lock.json
 project.fragment.lock.json
+obj/project.assets.json
+obj/RestaurantPOS.csproj.nuget.dgspec.json
 artifacts/
 
 # Tye
