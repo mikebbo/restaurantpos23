@@ -76,6 +76,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = Color.White;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Item, Quantity, Amount });
             dataGridView1.Location = new Point(23, 53);
@@ -86,6 +87,7 @@
             // 
             // dataGridView2
             // 
+            dataGridView2.BackgroundColor = Color.White;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Location = new Point(692, 53);
             dataGridView2.Name = "dataGridView2";
