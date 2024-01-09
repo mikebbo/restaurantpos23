@@ -1,6 +1,6 @@
 ﻿namespace RestaurantPOS.PosUI
 {
-    partial class NewItem
+    partial class PosMain
     {
         /// <summary>
         /// Required designer variable.
@@ -135,6 +135,7 @@
         }
 
         #endregion
+        
 
         private Button BtnCancel;
         private Button BtnSave;
