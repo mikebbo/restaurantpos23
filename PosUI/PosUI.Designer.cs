@@ -1,6 +1,6 @@
 ﻿namespace RestaurantPOS.PosUI
 {
-    partial class NewItem
+    partial class PosUI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewItem));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PosUI));
             BtnCancel = new Button();
             BtnSave = new Button();
             btnPrint = new Button();
-            dataGridView1 = new DataGridView();
+            DGVItems = new DataGridView();
             Item = new DataGridViewTextBoxColumn();
             Quantity = new DataGridViewTextBoxColumn();
             Amount = new DataGridViewTextBoxColumn();
@@ -43,7 +43,7 @@
             btnPoutine = new Button();
             button3 = new Button();
             btnFrenchFries = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DGVItems).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
@@ -81,16 +81,16 @@
             btnPrint.Text = "Print";
             btnPrint.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // DGVItems
             // 
-            dataGridView1.BackgroundColor = Color.White;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Item, Quantity, Amount });
-            dataGridView1.Location = new Point(23, 53);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(386, 473);
-            dataGridView1.TabIndex = 3;
+            DGVItems.BackgroundColor = Color.White;
+            DGVItems.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DGVItems.Columns.AddRange(new DataGridViewColumn[] { Item, Quantity, Amount });
+            DGVItems.Location = new Point(23, 53);
+            DGVItems.Name = "DGVItems";
+            DGVItems.RowHeadersWidth = 51;
+            DGVItems.Size = new Size(386, 473);
+            DGVItems.TabIndex = 3;
             // 
             // Item
             // 
@@ -134,6 +134,7 @@
             btnPizza.TabIndex = 4;
             btnPizza.Text = "Pizza";
             btnPizza.UseVisualStyleBackColor = false;
+            btnPizza.Click += btnPizza_Click;
             // 
             // btnHotdog
             // 
@@ -191,8 +192,9 @@
             btnFrenchFries.TabIndex = 8;
             btnFrenchFries.Text = "FrenchFrize";
             btnFrenchFries.UseVisualStyleBackColor = false;
+            btnFrenchFries.Click += btnFrenchFries_Click;
             // 
-            // NewItem
+            // PosUI
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -205,13 +207,13 @@
             Controls.Add(btnHotdog);
             Controls.Add(btnPizza);
             Controls.Add(dataGridView2);
-            Controls.Add(dataGridView1);
+            Controls.Add(DGVItems);
             Controls.Add(BtnCancel);
             Controls.Add(btnPrint);
             Controls.Add(BtnSave);
-            Name = "NewItem";
-            Text = "New Item";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Name = "PosUI";
+            Text = "PosUI";
+            ((System.ComponentModel.ISupportInitialize)DGVItems).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
         }
@@ -221,7 +223,7 @@
         private Button BtnCancel;
         private Button BtnSave;
         private Button btnPrint;
-        private DataGridView dataGridView1;
+        private DataGridView DGVItems;
         private DataGridView dataGridView2;
         private DataGridViewTextBoxColumn Item;
         private DataGridViewTextBoxColumn Quantity;

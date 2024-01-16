@@ -52,7 +52,7 @@ namespace RestaurantPOS
             };
             if (_userRepo.validateUser(user))
             {
-                PosMain posMain = new PosMain();
+                NewItem posMain = new NewItem();
                 posMain.Show();
 
 

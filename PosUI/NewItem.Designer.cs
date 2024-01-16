@@ -1,6 +1,6 @@
 ﻿namespace RestaurantPOS.PosUI
 {
-    partial class PosMain
+    partial class NewItem: Form
     {
         /// <summary>
         /// Required designer variable.
@@ -9,6 +9,7 @@
 
         /// <summary>
         /// Clean up any resources being used.
+        /// 
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -50,7 +51,7 @@
             BtnCancel.TabIndex = 1;
             BtnCancel.Text = "Cancel";
             BtnCancel.UseVisualStyleBackColor = false;
-            BtnCancel.Click += BtnCancel_Click;
+            //BtnCancel.Click += BtnCancel_Click;
             // 
             // BtnSave
             // 

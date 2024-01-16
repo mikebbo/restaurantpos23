@@ -10,15 +10,26 @@ using System.Windows.Forms;
 
 namespace RestaurantPOS.PosUI
 {
-    public partial class NewItem : Form
+    public partial class PosUI : Form
     {
-        public NewItem()
+        public PosUI()
         {
             InitializeComponent();
         }
 
         private void BtnCancel_Click_1(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnFrenchFries_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnPizza_Click(object sender, EventArgs e)
+        {
+            DGVItems.Rows.Add("Pizza", 1, 13);
 
         }
     }
