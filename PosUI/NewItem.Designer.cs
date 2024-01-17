@@ -1,6 +1,6 @@
 ﻿namespace RestaurantPOS.PosUI
 {
-    partial class NewItem: Form
+    partial class NewItem
     {
         /// <summary>
         /// Required designer variable.
@@ -129,14 +129,14 @@
             Controls.Add(btnPrint);
             Controls.Add(BtnSave);
             Name = "NewItem";
-            Text = "New Item";
+            Text = "Point of sale";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        
+
 
         private Button BtnCancel;
         private Button BtnSave;
